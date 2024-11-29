@@ -23,7 +23,7 @@ Pasos generales para comenzar a trabajar con el repositorio:
 1. **Clona este repositorio**:
 
    ```bash
-   git clone {{REPO_URL}}
+   git clone https://github.com/AlexanderWindecker/testKlimber.git
    ```
 
 2. **Instala las dependencias con el CLI del package manager**:
