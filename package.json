@@ -1,0 +1,23 @@
+{
+  "name": "testklimber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cy:open": "cypress open",
+    "mocha-report": "cypress run --spec cypress/e2e/klimber.cy.js --browser chrome --headed"
+  },
+  "keywords": [
+    "e2e"
+  ],
+  "author": "Alexander Windecker",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.16.0"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
